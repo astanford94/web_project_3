@@ -58,18 +58,6 @@
 .places__detail {
 }
 
-/*.places__title:nth-child(3) {
-  grid-area: title;
-  width: 460px;
-  height: 76px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  color: #fff;
-}*/
-
 .places__artist-role {
   grid-area: artist-role;
   margin-top: 107px;
@@ -95,49 +83,13 @@
   color: #fff;
 }
 
-/*.places__artist:nth-child(2) {
-  grid-area: artist;
-  width: 456px;
-  height: 22px;
-  margin-top: 342px;
-  margin-right: 176px;
-  margin-bottom: 0;
-  margin-left: 0;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #fff;
-}*/
-
-/*.places__artist:nth-child(3) {
-  grid-area: artist;
-  width: 456px;
-  height: 22px;
-  margin-top: 0;
-  margin-right: 176px;
-  margin-bottom: 48px;
-  margin-left: 0;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #fff;
-}*/
-
-.places__image-container {
-  /*grid-area: image;*/
-}
-
 .places__image {
   grid-area: image;
   max-width: 460px;
   height: 460px;
-  margin-top: ;
+  margin-top: 0;
   margin-right: 40px;
-  margin-bottom: ;
+  margin-bottom: 0;
   /* margin-left: 148px; */
 }
 
