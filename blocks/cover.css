@@ -1,0 +1,22 @@
+.cover {
+  background-image: url(../images/__background.svg);
+}
+
+.cover__title {
+}
+
+.cover__subtitle {
+}
+
+.cover__button {
+  border-radius: 4px;
+  opacity: 100%;
+  width: 248px;
+  height: 48px;
+  margin-top: 0;
+  margin-right: ;
+  margin-bottom: 80px;
+  margin-left: 148px;
+  background: #0278fe;
+  color: #fff;
+}
