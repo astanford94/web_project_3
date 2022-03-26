@@ -1,11 +1,39 @@
 .cover {
   background-image: url(../images/__background.svg);
+  max-width: 1184px;
+  max-height: 740px;
 }
 
 .cover__title {
+  max-width: 656px;
+  max-height: 76px;
+  margin-top: 243px;
+  margin-right: 264px;
+  margin-bottom: 0;
+  margin-left: 264px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #fffdfd;
 }
 
 .cover__subtitle {
+  max-width: 280px;
+  max-height: 66px;
+  margin-top: 32px;
+  margin-right: 452px;
+  margin-bottom: 45px;
+  margin-left: 452px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
 }
 
 .cover__button {
@@ -14,9 +42,9 @@
   width: 248px;
   height: 48px;
   margin-top: 0;
-  margin-right: ;
-  margin-bottom: 80px;
-  margin-left: 148px;
+  margin-right: 525px;
+  margin-bottom: 243px;
+  margin-left: 525px;
   background: #0278fe;
   color: #fff;
 }

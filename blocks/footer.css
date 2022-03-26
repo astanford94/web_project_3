@@ -2,4 +2,6 @@
 }
 
 .footer__copyrights {
+  display: flex;
+  text-align: center;
 }
