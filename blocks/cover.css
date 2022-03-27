@@ -2,6 +2,32 @@
   background-image: url(../images/__background.svg);
   max-width: 1184px;
   max-height: 740px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 92px;
+  margin-right: 48px;
+  margin-bottom: 92px;
+  margin-left: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  background: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }
 
 .cover__title {
@@ -47,4 +73,9 @@
   margin-left: 525px;
   background: #0278fe;
   color: #fff;
+  border: none;
+}
+
+.cover__button:hover {
+  opacity: 30%;
 }

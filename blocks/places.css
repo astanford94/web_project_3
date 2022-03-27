@@ -86,7 +86,7 @@
 .places__image {
   grid-area: image;
   max-width: 460px;
-  height: 460px;
+  max-height: 460px;
   margin-top: 0;
   margin-right: 40px;
   margin-bottom: 0;
@@ -128,4 +128,10 @@
   /*margin-left: 168px;*/
   background: #0278fe;
   color: #fff;
+  border: none;
+}
+
+.places__button:hover {
+  opacity: 30%;
+  background: #0063d2;
 }
