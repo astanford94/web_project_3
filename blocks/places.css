@@ -3,7 +3,7 @@
 
 .places__item {
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: min-content min-content min-content 1fr;
   grid-template-areas:
     "title artist-role"
     "title artist"
@@ -13,28 +13,6 @@
   margin-right: 148px;
   margin-bottom: 92px;
   margin-left: 148px;
-}
-
-@media screen and (max-width: 1279) {
-  .places__item {
-    grid-template-areas:
-      "title artist-role"
-      "title artist"
-      "image description"
-      "button description";
-  }
-}
-
-@media screen and (max-width: 767) {
-  .places__item {
-    grid-template-areas:
-      "title"
-      "artist-role"
-      "artist"
-      "image"
-      "description"
-      "button";
-  }
 }
 
 .places__title {
@@ -90,7 +68,7 @@
   margin-top: 0;
   margin-right: 40px;
   margin-bottom: 0;
-  /* margin-left: 148px; */
+  /*margin-left: 148px;*/
 }
 
 .places__description {
@@ -125,13 +103,93 @@
   margin-top: 60px;
   margin-right: 0;
   margin-bottom: 80px;
+  padding: 13px 20px 13px 20px;
   /*margin-left: 168px;*/
   background: #0278fe;
-  color: #fff;
   border: none;
+  text-decoration: none;
+  /*text-align: center;*/
+  padding: 0;
+}
+
+.places__button-text {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+  padding: 13px 20px 13px 20px;
 }
 
 .places__button:hover {
   opacity: 0.3;
   background: #0063d2;
+}
+
+/*@media screen and (max-width: 1279) {
+  .places__item {
+    grid-template-areas:
+      "title artist-role"
+      "title artist"
+      "image description"
+      "button description";
+  }*/
+}
+
+@media screen and (max-width: 920px) {
+  .places__item {
+    grid-template-areas:
+      "title artist-role"
+      "title artist"
+      "image description"
+      "button description";
+      gap: 50px;
+  }
+
+  .places__title {
+    grid-area: title;
+    /*max-width: 340px;
+    max-height: 46px;
+    /*margin-top: 92px;
+    margin-top: 0;
+    margin-right: 28px;
+    margin-bottom: 48px;
+    margin-left: ;
+    /*margin-left: 148px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 900;*/
+    font-size: 42px;
+    line-height: 46px;
+    /*color: #fff;*/
+  }
+
+  .places__image {
+    grid-area: image;
+    object-fit: cover;
+    /* max-width: 460px;
+    margin-top: 0;
+    margin-right: 28px;
+    margin-bottom: 0;
+    margin-left: 24px;*/
+    
+  }
+
+  .places__paragraph {
+    /*margin: 0 0 12px 0;
+    max-width: 484px;
+    /*margin-top: 48px;
+    margin-right: 24px;
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;*/
+    font-size: 16px;
+    line-height: 26px;
+    /*color: #fff;*/
+  }
 }
