@@ -33,7 +33,7 @@
 
 .cover__title {
   max-width: 656px;
-  max-height: 76px;
+  max-height: 106%;
   margin-top: 243px;
   margin-right: 264px;
   margin-bottom: 0;
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 106%;
   text-align: center;
   color: #fffdfd;
 }
@@ -58,7 +58,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 122%;
   text-align: center;
   color: #fff;
 }
@@ -84,7 +84,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 122%;
   margin: 0;
   padding: 0;
   color: #fff;
@@ -126,7 +126,7 @@
     font-style: normal;
     font-weight: 900;*/
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
     text-align: center;
     /*color: #fffdfd;*/
   }
@@ -142,7 +142,7 @@
     font-style: normal;
     font-weight: 400;*/
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     text-align: center;
     /*color: #fff;*/
   }
@@ -164,8 +164,8 @@
     /*font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 900;*/
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 72px;
+    line-height: 106%;
     text-align: center;
     /*color: #fffdfd;*/
   }
@@ -180,9 +180,10 @@
     /*font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;*/
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 122%;
     text-align: center;
+    margin: 32px auto 45px auto;
     /*color: #fff;*/
   }
 }

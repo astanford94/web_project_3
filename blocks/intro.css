@@ -12,7 +12,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 107%;
   color: #fff;
 }
 
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 142%;
   color: #fff;
 }
 
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 142%;
   text-align: right;
   color: #fff;
 }
@@ -58,8 +58,58 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 163%;
   color: #fff;
+}
+
+@media screen and (max-width: 1236px) {
+  .intro__title {
+    /*width: 720px;
+    height: 174px;
+    margin-top: 0;
+    margin-right: 24px;
+    margin-bottom: 40px;
+    margin-left: 24px;*/
+    font-size: 54px;
+    line-height: 107%;
+    margin: 92px auto 40px auto;
+  }
+
+  .intro__quote {
+    /*width: 720px;
+    height: 102px;
+    margin-top: 0;
+    margin-right: 24px;
+    margin-bottom: 0;
+    margin-left: 24px;*/
+    font-size: 24px;
+    line-height: 142%;
+    margin: auto;
+  }
+
+  .intro__author {
+    /*width: 720px;
+    height: 34px;
+    margin-top: 10px;
+    margin-right: 24px;
+    margin-bottom: 32px;
+    margin-left: 24px;*/
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px auto 32px auto;
+  }
+
+  .intro__paragraph {
+    /*width: 720px;
+    height: 156px;
+    margin-top: 0;
+    margin-right: 24px;
+    margin-bottom: 90px;
+    margin-left: 24px;*/
+    font-size: 16px;
+    line-height: 163%;
+    margin: auto auto 118px auto;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -106,4 +156,93 @@
     font-size: 16px;
     line-height: 26px;
   }
-}
+
+  @media screen and (max-width: 750px) {
+    .intro__title {
+      /*width: 720px;
+      height: 174px;
+      margin-top: 0;
+      margin-right: 24px;
+      margin-bottom: 40px;
+      margin-left: 24px;*/
+      font-size: 54px;
+      line-height: 107%;
+    }
+  
+    .intro__quote {
+      /*width: 720px;
+      height: 102px;
+      margin-top: 0;
+      margin-right: 24px;
+      margin-bottom: 0;
+      margin-left: 24px;*/
+      font-size: 24px;
+      line-height: 142%;
+    }
+  
+    .intro__author {
+      /*width: 720px;
+      height: 34px;
+      margin-top: 10px;
+      margin-right: 24px;
+      margin-bottom: 32px;
+      margin-left: 24px;*/
+      font-size: 24px;
+      line-height: 142%;
+    }
+  
+    .intro__paragraph {
+      /*width: 720px;
+      height: 156px;
+      margin-top: 0;
+      margin-right: 24px;
+      margin-bottom: 90px;
+      margin-left: 24px;*/
+      font-size: 16px;
+      line-height: 163%;
+    }
+
+    @media screen and (max-width: 320px) {
+      .intro__title {
+        /*width: 720px;
+        height: 174px;
+        margin-top: 0;
+        margin-right: 24px;
+        margin-bottom: 40px;
+        margin-left: 24px;*/
+        font-size: 32px;
+        line-height: 109%;
+      }
+    
+      .intro__quote {
+        /*width: 720px;
+        height: 102px;
+        margin-top: 0;
+        margin-right: 24px;
+        margin-bottom: 0;
+        margin-left: 24px;*/
+        font-size: 24px;
+        line-height: 125%;
+      }
+    
+      .intro__author {
+        /*width: 720px;
+        height: 34px;
+        margin-top: 10px;
+        margin-right: 24px;
+        margin-bottom: 32px;
+        margin-left: 24px;*/
+        font-size: 24px;
+        line-height: 142%;
+      }
+    
+      .intro__paragraph {
+        /*width: 720px;
+        height: 156px;
+        margin-top: 0;
+        margin-right: 24px;
+        margin-bottom: 90px;
+        margin-left: 24px;*/
+        font-size: 16px;
+        line-height: 163%;
+      }
