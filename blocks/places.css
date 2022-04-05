@@ -198,7 +198,7 @@
   .places__item {
     display: grid;
     grid-template-rows: auto auto auto 1fr;
-    grid-gap: 48px 40px;
+    grid-gap: 46px 28px;
     grid-template-columns: 1fr 1fr;
     margin-right: 24px;
     margin-left: 24px;
@@ -256,7 +256,7 @@
     display: grid;
     grid-template-rows: auto auto auto 1fr;
     grid-gap: 48px 40px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-right: 24px;
     margin-left: 24px;
     grid-template-areas:
