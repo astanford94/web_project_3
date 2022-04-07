@@ -1,5 +1,5 @@
 .cover {
-  background-image: url(../images/__background.svg);
+  background-image: url(../images/__background-2.jpg);
   max-width: 1184px;
   max-height: 740px;
   width: 100%;
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 1000px) {
   .cover {
-    background-image: url(../images/__background.svg);
+    background-image: url(../images/__background-2.jpg);
     object-fit: cover;
     margin-top: 92px;
     margin-right: 0;
@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 550px) {
   .cover {
-    background-image: url(../images/__background.svg);
+    background-image: url(../images/__background-2.jpg);
     object-fit: cover;
   }
 
@@ -190,7 +190,7 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    background-image: url(../images/__background.svg);
+    background-image: url(../images/__background-2.jpg);
     object-fit: cover;
   }
 
