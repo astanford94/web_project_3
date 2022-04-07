@@ -2,11 +2,12 @@
   padding: 0 24px;
 }
 
-/*@media screen and (max-width: 1279) {
-  .photo-grid {
-    padding: 0 24px;
-  }
-}*/
+.photo-grid__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 16px;
+}
 
 @media screen and (max-width: 1000px) {
   .photo-grid {
