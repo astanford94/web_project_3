@@ -24,4 +24,4 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 **Link to website**
 
-https://github.com/astanford94/web_project_3.git
+https://astanford94.github.io/web_project_3/
