@@ -172,116 +172,117 @@
     font-size: 16px;
     line-height: 26px;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .intro {
-      margin-right: 24px;
-      margin-left: 24px;
-    }
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
 
-    .intro__title {
-      /*width: 720px;
+  .intro__title {
+    /*width: 720px;
       height: 174px;
       margin-top: 0;
       margin-right: 24px;
       margin-bottom: 40px;
       margin-left: 24px;*/
-      font-size: 54px;
-      line-height: 107%;
-      max-width: 720px;
-      width: 100%;
-    }
-  
-    .intro__quote {
-      /*width: 720px;
+    font-size: 54px;
+    line-height: 107%;
+    max-width: 720px;
+    width: 100%;
+  }
+
+  .intro__quote {
+    /*width: 720px;
       height: 102px;
       margin-top: 0;
       margin-right: 24px;
       margin-bottom: 0;
       margin-left: 24px;*/
-      max-width: 720px;
-      width: 100%;
-      font-size: 24px;
-      line-height: 142%;
-    }
-  
-    .intro__author {
-      /*width: 720px;
+    max-width: 720px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 142%;
+  }
+
+  .intro__author {
+    /*width: 720px;
       height: 34px;
       margin-top: 10px;
       margin-right: 24px;
       margin-bottom: 32px;
       margin-left: 24px;*/
-      max-width: 720px;
-      width: 100%;
-      font-size: 24px;
-      line-height: 142%;
-    }
-  
-    .intro__paragraph {
-      /*width: 720px;
+    max-width: 720px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 142%;
+  }
+
+  .intro__paragraph {
+    /*width: 720px;
       height: 156px;
       margin-top: 0;
       margin-right: 24px;
       margin-bottom: 90px;
       margin-left: 24px;*/
-      max-width: 720px;
-      width: 100%;
-      font-size: 16px;
-      line-height: 163%;
-    }
+    max-width: 720px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 163%;
   }
+}
 
-    @media screen and (max-width: 320px) {
-      .intro__title {
-        /*width: 720px;
+@media screen and (max-width: 320px) {
+  .intro__title {
+    /*width: 720px;
         height: 174px;
         margin-top: 0;
         margin-right: 24px;
         margin-bottom: 40px;
         margin-left: 24px;*/
-        max-width: 288px;
-        width: 100%;
-        font-size: 32px;
-        line-height: 109%;
-      }
-    
-      .intro__quote {
-        /*width: 720px;
+    max-width: 288px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 109%;
+  }
+
+  .intro__quote {
+    /*width: 720px;
         height: 102px;
         margin-top: 0;
         margin-right: 24px;
         margin-bottom: 0;
         margin-left: 24px;*/
-        max-width: 288px;
-        width: 100%;
-        font-size: 24px;
-        line-height: 125%;
-      }
-    
-      .intro__author {
-        /*width: 720px;
+    max-width: 288px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 125%;
+  }
+
+  .intro__author {
+    /*width: 720px;
         height: 34px;
         margin-top: 10px;
         margin-right: 24px;
         margin-bottom: 32px;
         margin-left: 24px;*/
-        max-width: 288px;
-        width: 100%;
-        font-size: 24px;
-        line-height: 142%;
-      }
-    
-      .intro__paragraph {
-        /*width: 720px;
+    max-width: 288px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 142%;
+  }
+
+  .intro__paragraph {
+    /*width: 720px;
         height: 156px;
         margin-top: 0;
         margin-right: 24px;
         margin-bottom: 90px;
         margin-left: 24px;*/
-        max-width: 288px;
-        width: 100%;
-        font-size: 16px;
-        line-height: 163%;
-      }
-    }
+    max-width: 288px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
