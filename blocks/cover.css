@@ -187,3 +187,68 @@
     /*color: #fff;*/
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover {
+    background-image: url(../images/__background.svg);
+    object-fit: cover;
+  }
+
+  .cover__title {
+    /*max-width: 656px;
+    max-height: 76px;
+    margin-top: 243px;
+    margin-right: 56px;
+    margin-bottom: 0;
+    margin-left: 56px;
+    /*font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 900;*/
+    max-width: 288px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 109%;
+    text-align: center;
+    /*color: #fffdfd;*/
+  }
+
+  .cover__subtitle {
+    /*max-width: 280px;
+    max-height: 66px;
+    margin-top: 32px;
+    margin-right: 244px;
+    margin-bottom: 32px;
+    margin-left: 244px;
+    /*font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;*/
+    max-width: 280px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    margin: 32px auto 45px auto;
+    /*color: #fff;*/
+  }
+
+  .cover__button {
+    border-radius: 4px;
+    opacity: 100%;
+    max-width: 137px;
+    /*height: 48px;*/
+    margin-top: 0;
+    margin-right: 525px;
+    margin-bottom: 243px;
+    margin-left: 525px;
+    padding: 13px 20px 13px 20px;
+    /*background: #0278fe;
+    border: none;
+    text-align: center;
+    text-decoration: none;*/
+  }
+
+  .cover__button-text {
+    font-size: 18px;
+    line-height: 122%;
+  }
+}

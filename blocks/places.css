@@ -19,12 +19,10 @@
   grid-area: title;
   max-width: 460px;
   max-height: 152px;
-  /*margin-top: 92px;*/
   margin-top: 0;
   margin-right: 40px;
   margin-bottom: 48px;
   margin-left: ;
-  /*margin-left: 148px;*/
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -39,9 +37,7 @@
 .places__artist-role {
   grid-area: artist-role;
   margin-top: 107px;
-  /*margin-top: 200px;*/
   margin-right: 0;
-  /*margin-bottom: 8px;*/
   margin-left: 0;
 }
 
@@ -68,12 +64,10 @@
   margin-top: 0;
   margin-right: 40px;
   margin-bottom: 0;
-  /*margin-left: 148px;*/
 }
 
 .places__description {
   grid-area: description;
-  /*margin-top: 48px;*/
 }
 
 .places__paragraph {
@@ -101,11 +95,9 @@
   margin-right: 0;
   margin-bottom: 80px;
   padding: 13px 20px 13px 20px;
-  /*margin-left: 168px;*/
   background: #0278fe;
   border: none;
   text-decoration: none;
-  /*text-align: center;*/
   padding: 0;
 }
 
@@ -126,16 +118,6 @@
   opacity: 0.3;
   background: #0063d2;
 }
-
-/*@media screen and (max-width: 1279) {
-  .places__item {
-    grid-template-areas:
-      "title artist-role"
-      "title artist"
-      "image description"
-      "button description";
-  }
-}*/
 
 @media screen and (max-width: 1000px) {
   .places__item {
@@ -180,17 +162,6 @@
   }
 
   .places__paragraph {
-    /*margin: 0 0 12px 0;
-    max-width: 484px;
-    /*margin-top: 48px;
-    margin-right: 24px;
-    margin-bottom: 25px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    /*color: #fff;*/
   }
 }
 
@@ -213,6 +184,7 @@
     grid-area: title;
     font-size: 42px;
     line-height: 110%;
+    align-self: end;
   }
 
   .places__artist-role {
@@ -237,28 +209,24 @@
   }
 
   .places__paragraph {
-    /*margin: 0 0 12px 0;
-    max-width: 484px;
-    /*margin-top: 48px;
-    margin-right: 24px;
-    margin-bottom: 25px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    /*color: #fff;*/
+  }
+
+  .places__button {
+    grid-area: button;
+    border-radius: 4px;
+    opacity: 100%;
+    margin: initial;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__item {
     display: grid;
-    grid-template-rows: auto auto auto 1fr;
-    grid-gap: 48px 40px;
+    grid-template-rows: auto;
+    grid-gap: 30px;
     grid-template-columns: 1fr;
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right: 16px;
+    margin-left: 16px;
     grid-template-areas:
       "title"
       "artist-role"
@@ -275,12 +243,14 @@
     grid-area: title;
     font-size: 32px;
     line-height: 109%;
+    align-self: end;
   }
 
   .places__artist-role {
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
+    margin-top: 30px;
   }
 
   .places__artist {
@@ -299,16 +269,5 @@
   }
 
   .places__paragraph {
-    /*margin: 0 0 12px 0;
-    max-width: 484px;
-    /*margin-top: 48px;
-    margin-right: 24px;
-    margin-bottom: 25px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 26px;
-    /*color: #fff;*/
   }
 }

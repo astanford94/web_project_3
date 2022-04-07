@@ -16,7 +16,6 @@
   text-align: center;
   color: #fff;
   max-width: 793px;
-  height: 200px;
   margin-top: 91px;
   margin-right: 244px;
   margin-bottom: 32px;
@@ -35,7 +34,6 @@
   text-align: center;
   color: #fff;
   max-width: 720px;
-  height: 72px;
   margin-top: 0;
   margin-right: 280px;
   margin-bottom: 64px;
@@ -114,22 +112,22 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .header__logo {
     margin-right: 248px;
     margin-left: 248px;
   }
 
   .header__title {
-    /*margin-top: 91px;
+    margin-top: 90px;
     margin-right: 24px;
     margin-bottom: 32px;
-    margin-left: 24px;*/
+    margin-left: 24px;
     font-size: 96px;
     line-height: 104%;
+    text-align: center;
     width: 100%;
-    margin: 90px auto;
-    padding-bottom: 32px;
+    max-width: 720px;
   }
 
   .header__subtitle {
@@ -139,7 +137,8 @@
     font-size: 30px;
     line-height: 120%;
     width: 100%;
-    margin: 32px auto;
+    margin: 0 24px 36px 24px;
+    /*padding-top: 90px;*/
   }
 
   .header__image {
@@ -201,7 +200,8 @@
     margin-left: 16px;
     font-size: 40px;
     line-height: 110%;
-    /*width: 100%;*/
+    width: 100%;
+    max-width: 288px;
   }
 
   .header__subtitle {
@@ -210,7 +210,8 @@
     margin-bottom: 36px;*/
     font-size: 16px;
     line-height: 125%;
-    /*width: 100%;*/
+    width: 100%;
+    max-width: 288px;
   }
 
   .header__image {

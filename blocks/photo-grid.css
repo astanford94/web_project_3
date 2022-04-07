@@ -35,7 +35,10 @@
 }
 
 .photo-grid__list-item {
+  max-width: 100%;
 }
 
 .photo-grid__item {
+  width: 352px;
+  max-width: 100%;
 }
