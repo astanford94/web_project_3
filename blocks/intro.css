@@ -173,7 +173,7 @@
     line-height: 26px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .intro {
       margin-right: 24px;
       margin-left: 24px;
@@ -230,6 +230,7 @@
       font-size: 16px;
       line-height: 163%;
     }
+  }
 
     @media screen and (max-width: 320px) {
       .intro__title {
