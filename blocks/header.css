@@ -43,37 +43,11 @@
 .header__image {
   max-width: 984px;
   width: 100%;
-  /*height: 615px;*/
   margin-top: 0;
   margin-right: 148px;
   margin-bottom: 92px;
   margin-left: 148px;
 }
-
-/*@media screen and (max-width: 1245px) {
-  .header__title {
-    margin-top: 91px;
-    margin-right: 244px;
-    margin-bottom: 32px;
-    margin-left: 244px;
-  }
-
-  .header__subtitle {
-    /*font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #fff;
-    max-width: 720px;
-    height: 72px;
-    margin-top: 0;
-    margin-right: 280px;
-    margin-bottom: 64px;
-    margin-left: 280px;
-  }
-}*/
 
 @media screen and (max-width: 1236px) {
   .header__logo {
@@ -86,10 +60,6 @@
   }
 
   .header__title {
-    /*margin-top: 91px;
-    margin-right: 24px;
-    margin-bottom: 32px;
-    margin-left: 24px;*/
     font-size: 96px;
     line-height: 104%;
     width: 100%;
@@ -97,9 +67,6 @@
   }
 
   .header__subtitle {
-    /*margin-top: 32px;
-    margin-right: 24px;
-    margin-bottom: 36px;*/
     font-size: 30px;
     line-height: 36px;
     width: 100%;
@@ -131,14 +98,10 @@
   }
 
   .header__subtitle {
-    /*margin-top: 32px;
-    margin-right: 24px;
-    margin-bottom: 36px;*/
     font-size: 30px;
     line-height: 120%;
     width: 100%;
     margin: 0 24px 36px 24px;
-    /*padding-top: 90px;*/
   }
 
   .header__image {
@@ -151,7 +114,6 @@
 @media screen and (max-width: 550px) {
   .header__logo {
     max-width: 200px;
-    /*height: 52px;*/
     margin-top: 20px;
     margin-right: 60px;
     margin-bottom: 0;
@@ -159,22 +121,15 @@
   }
 
   .header__title {
-    /*margin-top: 91px;*/
     margin-right: 16px;
-    /*margin-bottom: 32px;*/
     margin-left: 16px;
     font-size: 40px;
     line-height: 110%;
-    /*width: 100%;*/
   }
 
   .header__subtitle {
-    /*margin-top: 32px;
-    margin-right: 24px;
-    margin-bottom: 36px;*/
     font-size: 16px;
     line-height: 125%;
-    /*width: 100%;*/
   }
 
   .header__image {
@@ -186,7 +141,6 @@
 @media screen and (max-width: 320px) {
   .header__logo {
     max-width: 200px;
-    /*height: 52px;*/
     margin-top: 20px;
     margin-right: 60px;
     margin-bottom: 0;
@@ -194,9 +148,7 @@
   }
 
   .header__title {
-    /*margin-top: 91px;*/
     margin-right: 16px;
-    /*margin-bottom: 32px;*/
     margin-left: 16px;
     font-size: 40px;
     line-height: 110%;
@@ -205,9 +157,6 @@
   }
 
   .header__subtitle {
-    /*margin-top: 32px;
-    margin-right: 24px;
-    margin-bottom: 36px;*/
     font-size: 16px;
     line-height: 125%;
     width: 100%;
