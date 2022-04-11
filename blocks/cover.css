@@ -1,8 +1,8 @@
 .cover {
   background-image: url(../images/__background-2.jpg);
-  max-width: 1184px;
+  /*max-width: 1184px;*/
   max-height: 740px;
-  width: 100%;
+  /*width: 100%;*/
   object-fit: cover;
   margin-top: 92px;
   margin-right: 48px;
@@ -15,6 +15,7 @@
   text-align: center;
   z-index: 2;
   position: relative;
+  padding: 0;
 }
 
 .cover:hover {
