@@ -1,7 +1,7 @@
 .cover {
   background-image: url(../images/__background-2.jpg);
   /*max-width: 1184px;*/
-  max-height: 740px;
+  min-height: 740px;
   /*width: 100%;*/
   object-fit: cover;
   margin-top: 92px;
@@ -80,65 +80,40 @@
 }
 
 .cover__button:hover {
-  opacity: 30%;
   background: #0063d2;
 }
 
 @media screen and (max-width: 1000px) {
   .cover {
-    background-image: url(../images/__background-2.jpg);
-    object-fit: cover;
-    margin-top: 92px;
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 0;
   }
 
   .cover__title {
-    margin-top: 243px;
     margin-right: 56px;
-    margin-bottom: 0;
     margin-left: 56px;
-    font-size: 72px;
-    line-height: 106%;
-    text-align: center;
   }
 
   .cover__subtitle {
-    margin-top: 32px;
     margin-right: 244px;
-    margin-bottom: 32px;
     margin-left: 244px;
-    font-size: 18px;
-    line-height: 122%;
-    text-align: center;
   }
 }
 
 @media screen and (max-width: 550px) {
   .cover {
-    background-image: url(../images/__background-2.jpg);
-    object-fit: cover;
   }
 
   .cover__title {
-    font-size: 72px;
-    line-height: 106%;
-    text-align: center;
   }
 
   .cover__subtitle {
-    font-size: 18px;
-    line-height: 122%;
-    text-align: center;
     margin: 32px auto 45px auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    background-image: url(../images/__background-2.jpg);
-    object-fit: cover;
   }
 
   .cover__title {
@@ -146,7 +121,6 @@
     width: 100%;
     font-size: 32px;
     line-height: 109%;
-    text-align: center;
   }
 
   .cover__subtitle {
@@ -154,24 +128,11 @@
     width: 100%;
     font-size: 14px;
     line-height: 114%;
-    text-align: center;
-    margin: 32px auto 45px auto;
   }
 
   .cover__button {
-    border-radius: 4px;
-    opacity: 100%;
-    max-width: 137px;
-    height: 48px;
-    margin-top: 0;
-    margin-right: 525px;
-    margin-bottom: 243px;
-    margin-left: 525px;
-    padding: 13px 20px 13px 20px;
   }
 
   .cover__button-text {
-    font-size: 18px;
-    line-height: 122%;
   }
 }
