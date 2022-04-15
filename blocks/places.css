@@ -28,9 +28,11 @@
   font-size: 72px;
   line-height: 106%;
   color: #fff;
+  align-self: end;
 }
 
 .places__detail {
+  margin-bottom: 48px;
 }
 
 .places__artist-role {
@@ -38,12 +40,20 @@
   margin-top: 107px;
   margin-right: 0;
   margin-left: 0;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
 }
 
 .places__artist {
   grid-area: artist;
   max-width: 456px;
-  margin-top: 0;
+  margin-top: 8px;
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -76,27 +86,37 @@
   font-size: 18px;
   line-height: 163%;
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
-.places__paragraph:last-of-type {
+/*.places__paragraph:last-of-type {
   margin: 0;
-}
+}*/
 
 .places__button {
   grid-area: button;
   border-radius: 4px;
   opacity: 100%;
-  width: 248px;
-  height: 48px;
+  width: fit-content;
+  height: min-content;
   margin-top: 60px;
   margin-right: 0;
   margin-bottom: 80px;
   background: #0278fe;
   border: none;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 122%;
+  color: #fff;
+  text-align: center;
+  padding: 13px 20px;
 }
 
-.places__button-text {
+/*.places__button-text {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -106,12 +126,7 @@
   color: #fff;
   text-align: center;
   padding: 13px 20px 13px 20px;
-}
-
-.places__button:hover {
-  opacity: 0.3;
-  background: #0063d2;
-}
+}*/
 
 @media screen and (max-width: 1000px) {
   .places__item {
