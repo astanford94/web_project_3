@@ -33,11 +33,13 @@
 
 .places__detail {
   margin-bottom: 48px;
+  grid-area: artist;
+  align-self: end;
 }
 
 .places__artist-role {
   grid-area: artist-role;
-  margin-top: 107px;
+  /*margin-top: 107px;*/
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
@@ -51,7 +53,6 @@
 }
 
 .places__artist {
-  grid-area: artist;
   max-width: 456px;
   margin-top: 8px;
   margin-right: 0;
@@ -177,23 +178,20 @@
 @media screen and (max-width: 768px) {
   .places__item {
     display: grid;
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-gap: 46px 28px;
     grid-template-columns: 1fr 1fr;
     margin-right: 24px;
     margin-left: 24px;
     grid-template-areas:
-      "title artist-role"
       "title artist"
       "image description"
       "button description";
   }
 
   .places__title {
-    grid-area: title;
     font-size: 42px;
     line-height: 110%;
-    align-self: end;
   }
 
   .places__artist-role {
