@@ -4,7 +4,7 @@
   min-height: 740px;
   /*width: 100%;*/
   object-fit: cover;
-  margin-top: 92px;
+  /*margin-top: 92px;*/
   margin-right: 48px;
   margin-bottom: 0;
   margin-left: 48px;
@@ -126,6 +126,8 @@
 
 @media screen and (max-width: 320px) {
   .cover {
+    width: 320px;
+    height: 254px;
   }
 
   .cover__title {
@@ -133,6 +135,7 @@
     width: 100%;
     font-size: 32px;
     line-height: 109%;
+    margin-bottom: 16px;
   }
 
   .cover__subtitle {
@@ -143,6 +146,7 @@
   }
 
   .cover__button {
+    margin-top: 16px;
   }
 
   .cover__button-text {

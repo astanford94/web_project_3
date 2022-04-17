@@ -101,6 +101,10 @@
 }
 
 @media screen and (max-width: 550px) {
+  .header {
+    margin-top: 20px;
+  }
+
   .header__logo {
     max-width: 200px;
     margin-top: 20px;
@@ -128,12 +132,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  .header {
+  }
+
   .header__logo {
-    max-width: 200px;
-    margin-top: 20px;
-    margin-right: 60px;
-    margin-bottom: 0;
-    margin-left: 60px;
   }
 
   /*.header__title {
