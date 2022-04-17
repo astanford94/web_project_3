@@ -192,6 +192,13 @@
   .places__title {
     font-size: 42px;
     line-height: 110%;
+    margin: 0;
+  }
+
+  .places__detail {
+    grid-area: artist;
+    align-self: end;
+    margin: 0;
   }
 
   .places__artist-role {
@@ -236,7 +243,6 @@
     margin-left: 16px;
     grid-template-areas:
       "title"
-      "artist-role"
       "artist"
       "image"
       "description"
