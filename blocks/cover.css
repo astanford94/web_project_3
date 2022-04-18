@@ -42,7 +42,7 @@
 
 .cover__title {
   max-width: 656px;
-  margin-top: 243px;
+  /*margin-top: 243px;*/
   margin-right: 264px;
   margin-bottom: 32px;
   margin-left: 264px;
@@ -75,7 +75,7 @@
   width: 137px;
   margin-top: 32px;
   margin-right: 525px;
-  margin-bottom: 243px;
+  /*margin-bottom: 243px;*/
   margin-left: 525px;
   padding: 13px 20px;
   background: #0278fe;
@@ -114,39 +114,47 @@
 
 @media screen and (max-width: 550px) {
   .cover {
+    min-height: 254px;
   }
 
   .cover__title {
+    margin-top: 45px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 109%;
   }
 
   .cover__subtitle {
     margin: 0;
+    font-size: 14px;
+    line-height: 114%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    width: 320px;
-    height: 254px;
   }
 
   .cover__title {
-    max-width: 288px;
+    /*max-width: 288px;
     width: 100%;
     font-size: 32px;
     line-height: 109%;
-    margin-bottom: 16px;
+    margin-bottom: 16px;*/
   }
 
   .cover__subtitle {
-    max-width: 280px;
+    /* max-width: 280px;
     width: 100%;
     font-size: 14px;
-    line-height: 114%;
+    line-height: 114%;*/
   }
 
   .cover__button {
     margin-top: 16px;
+    margin-bottom: 45px;
   }
 
   .cover__button-text {
