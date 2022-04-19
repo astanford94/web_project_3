@@ -3,9 +3,9 @@
 
 .footer__copyrights {
   margin-top: 92px;
-  margin-right: 558px;
+  margin-right: auto;
   margin-bottom: 24px;
-  margin-left: 558px;
+  margin-left: auto;
   max-width: 200px;
   width: 100%;
   font-family: "Inter", sans-serif;
@@ -19,10 +19,11 @@
 @media screen and (max-width: 920px) {
   .footer__copyrights {
     margin-top: 88px;
-    margin-right: 300px;
-    margin-bottom: 24px;
-    margin-left: 300px;
-    max-width: 200px;
-    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__copyrights {
+    margin-top: 64px;
   }
 }
