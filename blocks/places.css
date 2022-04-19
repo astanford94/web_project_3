@@ -130,20 +130,12 @@
   }
 
   .places__title {
-    /*grid-area: title;
-    font-size: 72px;
-    line-height: 106%;*/
   }
 
   .places__artist-role {
-    /*font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;*/
   }
 
   .places__artist {
-    /*font-size: 18px;
-    line-height: 122%;*/
   }
 
   .places__image {
