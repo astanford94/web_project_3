@@ -15,22 +15,21 @@
 
 @media screen and (max-width: 768px) {
   .header__logo {
-    margin-right: 248px;
-    margin-left: 248px;
+    /*margin-right: 248px;
+    margin-left: 248px;*/
   }
 }
 
 @media screen and (max-width: 550px) {
   .header {
-    margin-top: 20px;
   }
 
   .header__logo {
     max-width: 200px;
     margin-top: 20px;
-    margin-right: 60px;
+    /*margin-right: 60px;*/
     margin-bottom: 0;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
   }
 }
 

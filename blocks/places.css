@@ -37,6 +37,7 @@
 
 .places__artist-role {
   grid-area: artist-role;
+  margin-top: 0;
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
@@ -45,8 +46,9 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  color: #aaa;
 }
 
 .places__artist {
@@ -88,9 +90,9 @@
   margin-bottom: 25px;
 }
 
-/*.places__paragraph:last-of-type {
+.places__paragraph:last-of-type {
   margin: 0;
-}*/
+}
 
 .places__button {
   grid-area: button;
@@ -100,7 +102,7 @@
   height: min-content;
   margin-top: 60px;
   margin-right: 0;
-  margin-bottom: 80px;
+  margin-bottom: 0;
   background: #0278fe;
   border: none;
   text-decoration: none;
@@ -114,19 +116,15 @@
   padding: 13px 20px;
 }
 
+.places__button:hover {
+  background: #0063d2;
+}
+
 @media screen and (max-width: 1000px) {
   .places__item {
-    display: grid;
     grid-template-rows: auto auto auto 1fr;
-    grid-gap: 48px 40px;
+    gap: 48px 40px;
     grid-template-columns: 1fr 1fr;
-    margin-right: 24px;
-    margin-left: 24px;
-    grid-template-areas:
-      "title artist-role"
-      "title artist"
-      "image description"
-      "button description";
   }
 
   .places__title {
@@ -139,13 +137,12 @@
   }
 
   .places__image {
-    grid-area: image;
     object-fit: cover;
   }
 
   .places__description {
-    font-size: 16px;
-    line-height: 163%;
+    /*font-size: 16px;
+    line-height: 163%;*/
   }
 
   .places__paragraph {
@@ -161,15 +158,14 @@
   }
 
   .places__item {
-    display: grid;
     grid-template-rows: auto auto 1fr;
-    grid-gap: 46px 28px;
-    grid-template-columns: 1fr 1fr;
+    gap: 46px 28px;
     grid-template-areas:
       "title artist"
       "image description"
       "button description";
     margin-bottom: 72px;
+    width: auto;
   }
 
   .places__title {
@@ -179,50 +175,41 @@
   }
 
   .places__detail {
-    grid-area: artist;
-    align-self: end;
     margin: 0;
   }
 
   .places__artist-role {
-    font-size: 12px;
     line-height: 15px;
-    text-transform: uppercase;
   }
 
   .places__artist {
-    font-size: 18px;
-    line-height: 122%;
   }
 
   .places__image {
-    grid-area: image;
-    object-fit: cover;
+    margin-right: 28px;
+    margin-left: 0;
   }
 
   .places__description {
-    font-size: 16px;
-    line-height: 163%;
+    width: auto;
   }
 
   .places__paragraph {
     font-size: 16px;
+    line-height: 163%;
   }
 
   .places__button {
-    grid-area: button;
-    border-radius: 4px;
     opacity: 100%;
     margin: initial;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
   .places {
     margin: 62px 0;
   }
   .places__item {
-    display: grid;
     grid-template-rows: auto;
     grid-gap: 30px;
     grid-template-columns: 1fr;
@@ -243,34 +230,24 @@
   }
 
   .places__title {
-    grid-area: title;
-    font-size: 32px;
-    line-height: 109%;
-    align-self: end;
+    /*font-size: 32px;
+    line-height: 109%;*/
     margin-right: 16px;
     margin-left: 16px;
   }
 
   .places__artist-role {
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    margin-top: 30px;
+    /*margin-top: 30px;
+    margin-bottom: 0;*/
   }
 
   .places__artist {
-    font-size: 18px;
-    line-height: 122%;
   }
 
   .places__image {
-    grid-area: image;
-    object-fit: cover;
   }
 
   .places__description {
-    font-size: 16px;
-    line-height: 163%;
     margin-right: 16px;
     margin-left: 16px;
   }
@@ -280,8 +257,67 @@
 
   .places__button {
     justify-self: center;
-    max-width: 288px;
+    min-width: 288px;
     margin-right: 16px;
     margin-left: 16px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    /*margin: 62px 0;*/
+  }
+  .places__item {
+    /*grid-template-rows: auto;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 50px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "description"
+      "button";*/
+  }
+
+  .places__detail {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .places__title {
+    font-size: 32px;
+    line-height: 109%;
+    /*margin-right: 16px;
+    margin-left: 16px;*/
+  }
+
+  .places__artist-role {
+    /*margin-top: 30px;
+    margin-bottom: 0;*/
+  }
+
+  .places__artist {
+  }
+
+  .places__image {
+  }
+
+  .places__description {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .places__paragraph {
+  }
+
+  .places__button {
+    /*justify-self: center;
+    max-width: 288px;
+    margin-right: 16px;
+    margin-left: 16px;*/
   }
 }
