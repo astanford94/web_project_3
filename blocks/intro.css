@@ -1,7 +1,7 @@
 .intro {
   max-width: 785px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 347px;
+  margin-left: 148px;
 }
 
 .intro__title {
@@ -91,6 +91,11 @@
 }*/
 
 @media screen and (max-width: 1000px) {
+  .intro {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .intro__title {
   }
 
