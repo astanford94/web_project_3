@@ -125,7 +125,6 @@
     margin-top: 88px;
     margin-right: 24px;
     margin-left: 24px;
-    margin-bottom: 92px;
   }
 
   .places__item {
@@ -148,8 +147,6 @@
   }
 
   .places__description {
-    /*font-size: 16px;
-    line-height: 163%;*/
   }
 
   .places__paragraph {
@@ -158,10 +155,6 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    margin-top: 88px;
-    margin-right: 24px;
-    margin-left: 24px;
-    margin-bottom: 92px;
   }
 
   .places__item {
@@ -203,7 +196,6 @@
 
   .places__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 
   .places__button {
@@ -218,7 +210,7 @@
   }
   .places__item {
     grid-template-rows: auto;
-    grid-gap: 30px;
+    gap: 30px;
     grid-template-columns: 1fr;
     margin-right: 0;
     margin-left: 0;
@@ -237,15 +229,11 @@
   }
 
   .places__title {
-    /*font-size: 32px;
-    line-height: 109%;*/
     margin-right: 16px;
     margin-left: 16px;
   }
 
   .places__artist-role {
-    /*margin-top: 30px;
-    margin-bottom: 0;*/
   }
 
   .places__artist {
@@ -273,38 +261,19 @@
 
 @media screen and (max-width: 320px) {
   .places {
-    /*margin: 62px 0;*/
   }
   .places__item {
-    /*grid-template-rows: auto;
-    grid-gap: 30px;
-    grid-template-columns: 1fr;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 50px;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "description"
-      "button";*/
   }
 
   .places__detail {
-    margin-right: 16px;
-    margin-left: 16px;
   }
 
   .places__title {
     font-size: 32px;
     line-height: 109%;
-    /*margin-right: 16px;
-    margin-left: 16px;*/
   }
 
   .places__artist-role {
-    /*margin-top: 30px;
-    margin-bottom: 0;*/
   }
 
   .places__artist {
@@ -322,9 +291,5 @@
   }
 
   .places__button {
-    /*justify-self: center;
-    max-width: 288px;
-    margin-right: 16px;
-    margin-left: 16px;*/
   }
 }

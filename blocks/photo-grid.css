@@ -12,16 +12,17 @@
   padding: 0;
 }
 
+.photo-grid__item {
+  width: 100%;
+  margin: 0;
+}
+
 @media screen and (max-width: 1000px) {
   .photo-grid {
     padding: 0 24px;
   }
 
   .photo-grid__list {
-    /*list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;*/
   }
 }
 
@@ -31,10 +32,6 @@
   }
 
   .photo-grid__list {
-    /*list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;*/
   }
 
   .photo-grid__list-item {
@@ -42,8 +39,6 @@
   }
 
   .photo-grid__item {
-    width: 352px;
-    max-width: 100%;
   }
 }
 
